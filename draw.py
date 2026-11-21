@@ -43,24 +43,24 @@ def wrap(text, font, width):
     return lines
 
 panels = [
-    ("THE HAGUE", (16, 42, 78), "scales",
-     "COURT: MYANMAR GUILTY OF GENOCIDE",
-     "The world court rules 9\u20136 that Myanmar committed genocide against the Rohingya \u2014 a first for the court."),
-    ("SHENZHEN", (178, 34, 34), "summit",
-     "TRUMP, XI AND PUTIN MEET",
-     "The three leaders hold their first three-way summit and sign a joint peace declaration."),
+    ("NAYPYITAW", (16, 42, 78), "scales",
+     "MYANMAR REJECTS GENOCIDE RULING",
+     "A day after the world court found it guilty of genocide, Myanmar calls the 9\u20136 ruling \u2018unfair\u2019."),
+    ("WASHINGTON", (178, 34, 34), "summit",
+     "TRUMP DEFENDS SHENZHEN SUMMIT",
+     "A day after the three-way meeting, Trump calls it \u2018electric\u2019 and defends sitting down with Xi and Putin."),
     ("KYIV", (120, 60, 20), "burst",
      "RUSSIA STRIKES KYIV OVERNIGHT",
-     "A major missile attack hits the capital; debris sets a building ablaze."),
+     "Russia fires 110 missiles and 400 drones in its biggest attack of the year; nine killed and three Kyiv bridges hit."),
     ("RIYADH", (120, 30, 90), "tower",
-     "HOUTHI MISSILE HITS RIYADH TOWER",
-     "A strike damages the Saudi sovereign wealth fund tower in the financial district."),
+     "RIYADH ON ALERT AFTER TOWER HIT",
+     "A day after a Houthi missile damaged the PIF Tower, Saudi civil defence issues 15 air-threat alerts in Riyadh."),
     ("MARKETS", (14, 110, 110), "chart",
-     "MARKETS SLIDE AS AI DOUBTS GROW",
-     "The S&P 500 falls for a fifth straight day; Japan's Nikkei drops 4.8%."),
+     "SELL-OFF DEEPENS INTO CORRECTION",
+     "The S&P 500 falls 3.7% for a seventh straight loss and enters correction; Japan\u2019s Nikkei drops 5.1%."),
     ("ANTALYA", (34, 120, 60), "leaf",
-     "COP31 DRAFT DROPS FOSSIL-FUEL EXIT",
-     "The climate draft deal removes any call to phase out fossil fuels."),
+     "COP31 TALKS SPILL INTO OVERTIME",
+     "Negotiators miss Friday\u2019s deadline as the fossil-fuel fight stalls a deal; a new draft is due later today."),
 ]
 
 def draw_icon(cx, cy, kind, color):
